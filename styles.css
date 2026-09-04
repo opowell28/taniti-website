@@ -4,6 +4,7 @@ html {
 
 body {
   margin: 0;
+  background-color: #F5F5F5;
 }
 
 img {
@@ -35,16 +36,15 @@ ul li a:hover {
 }
 
 .active {
-  background-color: yellowgreen;
+  background-color: #5C700A;
 }
 
 * {box-sizing:border-box}
 
-/* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  margin: 25px auto;
+  margin: 25px auto 0 auto;
 }
 
 /* Hide the images by default */
@@ -127,11 +127,12 @@ ul li a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   flex: 1;
 }
 
 .booking-links a {
-  color: yellowgreen;
+  color: #0C8AE7;
 }
 
 .booking-links h2 {
