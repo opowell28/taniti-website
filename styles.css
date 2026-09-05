@@ -1,10 +1,9 @@
 html {
-  font-family: sans-serif;
+  font-family: Avenir, sans-serif;
 }
 
 body {
   margin: 0;
-  background-color: #F5F5F5;
 }
 
 img {
@@ -15,7 +14,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #333333;
+  background-color: #3D5556;
   display: flex;
   justify-content: center;
 }
@@ -36,7 +35,7 @@ ul li a:hover {
 }
 
 .active {
-  background-color: #5C700A;
+  background-color: #312E42;
 }
 
 * {box-sizing:border-box}
@@ -44,7 +43,7 @@ ul li a:hover {
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  margin: 25px auto 0 auto;
+  margin: 0 auto 0 auto;
 }
 
 /* Hide the images by default */
@@ -148,4 +147,28 @@ ul li a:hover {
 
 .bottom-pano {
   margin: 0;
+}
+
+#pano-img {
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  display: flex;
+  background-color: #3D5556;
+  justify-content: center;
+}
+
+.welcome-logo {
+  color: #3D5556;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-style: italic;
+}
+
+.welcome-logo h1 {
+  margin: 0;
+  font-size: 50px;
 }
