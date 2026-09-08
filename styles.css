@@ -10,6 +10,10 @@ body {
   background-color: #E8DDB5;
 }
 
+p {
+  font-size: 18px;
+}
+
 img {
   border-radius: 10px;
 }
@@ -185,12 +189,19 @@ ul li a:hover {
 /*     activities.html      */
 /*--------------------------*/
 
+.activities-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
 .header-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-self: center;
-  max-width: 600px;
+  max-width: 1000px;
 }
 
 .activity-container {
@@ -199,6 +210,7 @@ ul li a:hover {
   padding: 20px;
   border-radius: 10px;
   background-color: #92B6B1;
+  max-width: 1000px;
 }
 
 .activity-container div {
@@ -221,3 +233,56 @@ ul li a:hover {
 }
 
 /*--------------------------*/
+/*       lodging.html       */
+/*--------------------------*/
+
+.lodging-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lodging-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 100px;
+}
+
+.lodging-header h1 {
+  background-image: url("images/lodging-header-img.jpg");
+  background-repeat: no-repeat;
+  color: white;
+  padding: 300px;
+  font-family: "Bai Jamjuree", serif;
+  font-size: 60px;
+}
+
+.lodging-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 100px;
+  gap: 40px;
+}
+
+.lodging-list-item img {
+  width: 400px;
+  height: auto;
+}
+
+.lodging-list-item p {
+  margin: 0 auto;
+  font-family: "Bai Jamjuree", serif;
+  font-style: italic;
+}
+
+.lodging-list-item a {
+  color: #111111;
+  margin: 0 auto;
+}
+
+/*--------------------------*/
+/*   transportation.html    */
+/*--------------------------*/
+
