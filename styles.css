@@ -252,6 +252,7 @@ ul li a:hover {
 .lodging-header h1 {
   background-image: url("images/lodging-header-img.jpg");
   background-repeat: no-repeat;
+  border-radius: 10px;
   color: white;
   padding: 300px;
   font-family: "Bai Jamjuree", serif;
@@ -286,3 +287,52 @@ ul li a:hover {
 /*   transportation.html    */
 /*--------------------------*/
 
+.transportation-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.transportation-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 100px;
+}
+
+.transportation-header h1 {
+  background-image: url("images/plane.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  margin: 40px;
+  padding: 400px;
+  color: white;
+  font-family: "Bai Jamjuree", serif;
+  font-size: 60px;
+}
+
+.map-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.map-container img {
+  width: 800px;
+  height: auto;
+}
+
+.map-info {
+  background-color: #0C8AE7;
+  color: white;
+  padding: 40px;
+  border-radius: 10px;
+  width: 300px;
+  height: 400px;
+}
+
+.map-info h2 {
+  font-family: "Bai Jamjuree", serif;
+}
