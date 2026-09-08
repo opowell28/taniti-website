@@ -18,7 +18,7 @@ img {
   border-radius: 10px;
 }
 
-ul {
+.nav-container ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -27,14 +27,14 @@ ul {
   justify-content: center;
 }
 
-ul li a {
+.nav-container ul li a {
   display: block;
   color: white;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-ul li a:hover {
+.nav-container ul li a:hover {
   background-color: #111111;
 }
 
@@ -43,6 +43,12 @@ ul li a:hover {
 }
 
 * {box-sizing:border-box}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .footer {
   display: flex;
@@ -189,14 +195,7 @@ ul li a:hover {
 /*     activities.html      */
 /*--------------------------*/
 
-.activities-content-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-}
-
-.header-container {
+.activities-header {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -208,6 +207,7 @@ ul li a:hover {
   display: flex;
   flex-direction: row;
   padding: 20px;
+  margin: 10px;
   border-radius: 10px;
   background-color: #92B6B1;
   max-width: 1000px;
@@ -235,12 +235,6 @@ ul li a:hover {
 /*--------------------------*/
 /*       lodging.html       */
 /*--------------------------*/
-
-.lodging-content-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 .lodging-header {
   display: flex;
@@ -287,12 +281,6 @@ ul li a:hover {
 /*   transportation.html    */
 /*--------------------------*/
 
-.transportation-content-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .transportation-header {
   display: flex;
   flex-direction: column;
@@ -335,4 +323,36 @@ ul li a:hover {
 
 .map-info h2 {
   font-family: "Bai Jamjuree", serif;
+}
+
+/*--------------------------*/
+/*        about.html        */
+/*--------------------------*/
+
+.about-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 100px;
+}
+
+.about-header h1 {
+  background-image: url("images/beach-boat.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  margin: 40px;
+  padding: 300px;
+  color: white;
+  font-family: "Bai Jamjuree", serif;
+  font-size: 60px;
+}
+
+.faq-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.faq-container h1 {
+  margin: 0;
 }
